@@ -30,6 +30,7 @@
         </div>
 
         <div id="slide-4" class="slide">
+            <strong style="font-size: 25px;">Classical Computing</strong><br>
             <p><em>Some important definitions:</em></p>
             <p>A <span class="emphasise-1">bit</span> is the smallest unit of data that a computer can store. A bit can represent a variety of different binaries, but it can only store one of the two possible values within a particular binary in a given moment. Typically, this value is either a 1 or a 0.</p>
             <p><span class="emphasise-1">Transistors</span> are used to physically represent one of two binary values. Consequently, they are a component of all modern classical computers.</p>
@@ -38,13 +39,117 @@
         </div>
 
         <div id="slide-5" class="slide">
-            <strong style="font-size: 25px;">Quantum Computers</strong>
+            <strong style="font-size: 25px;">Quantum Computing</strong><br>
+
+            <em>A brief history</em><br>
+            <p class="sub-sec">Feynman described that it would be necessary to simulate quantum systems using a device of quantum nature i.e. a quantum computer.</p>
+            <ul>
+                <li>Proposed in the early 1980's by Richard Feynman (among a few others)</li>
+                <li>historical point</li>
+                <li>historical point</li>
+                <li>historical point</li>
+                <li>historical point</li>
+                <li>historical point</li>
+                <li>historical point</li>
+            </ul>
+        </div>
+
+        <div id="slide-6" class="slide">
+            <strong style="font-size: 25px;">Quantum Computing</strong><br>
+            <ul>
+                <li>Quantum computers use qubits to process information.</li>
+                <li>Qubits are stored in what's called the quantum register</li>
+                <li>Qubits are functionally the quantum counterpart of bits</li>
+            </ul>
+
+            <strong>Qubits use the principles of quantum mechanics to function, specifically:</strong>
+            <ul>
+                <li>Superposition</li>
+                <li>Entanglement</li>
+                <li>Decoherence</li>
+            </ul>
+            
+
+        </div>
+
+        <div id="slide-7" class="slide">
+            <strong style="font-size: 25px;">Quantum Computing</strong><br>
+
+            <strong>Quantum superposition</strong>
+            
+            <p>
+                \(|1\rangle\)
+            </p>
+
+            <p>
+                \(|0\rangle\)
+            </p>
+
+            <p>
+                \(|\psi\rangle\)
+            </p>
+
+            <p>
+                \(|\psi\rangle=\alpha|1\rangle+\beta|0\rangle\)
+            </p>
+
+            <p>
+                \(P(|1\rangle)=|\alpha|^2\)
+            </p>
+
+            <p>
+                \(P(|0\rangle)=|\beta|^2\)
+            </p>
+
+            <p>
+                \(|\alpha|^2+|\beta|^2=1\)
+            </p>
+
+            <p>
+                \(|\psi_1\rangle=\alpha_1|1\rangle+\beta_1|0\rangle\)
+            </p>
+
+            <p>
+                \(|\psi_2\rangle=\alpha_2|1\rangle+\beta_2|0\rangle\)
+            </p>
+
+            <p>
+                \(|\psi_1\rangle*|\psi_2\rangle=(\alpha_1|1\rangle+\beta_1|0\rangle)*(\alpha_2|1\rangle+\beta_2|0\rangle)\)
+            </p>
+
+            <p>
+                \(|\psi_1\rangle*|\psi_2\rangle=\alpha_1|1\rangle\otimes(\alpha_2|1\rangle+\beta_2|0\rangle)+\beta_1|1\rangle\otimes(\alpha_2|1\rangle+\beta_2|0\rangle)\)
+            </p>
+            <p>
+                \(|\psi_1\rangle*|\psi_2\rangle=\alpha_1\alpha_2|1,1\rangle+\alpha_1\beta_2|1,0\rangle+\beta_1\alpha_2|0,1\rangle+\beta_1\beta_2|0,0\rangle\)
+            </p>
+
+            <p>
+                \(\alpha_1=\alpha_2=\beta_1=\beta_2=\frac{1}{\sqrt{2}}\)
+            </p>
+            <p>
+                \(|\psi_1\rangle*|\psi_2\rangle=\frac{1}{2}|1,1\rangle+\frac{1}{2}|1,0\rangle+\frac{1}{2}|0,1\rangle+\frac{1}{2}|0,0\rangle\)
+            </p>
+
+            <p>
+                \(P(|1,1\rangle) = P(|1,0\rangle) = P(|0,1\rangle) = P(|0,0\rangle) = \frac{1}{4}\)
+            </p>
+            <p>
+                \(\frac{1}{4}+\frac{1}{4}+\frac{1}{4}+\frac{1}{4}=1\)
+            </p>
+            <p>
+                \(|\psi\rangle=\frac{1}{\sqrt{2}}|0,1\rangle+\frac{1}{\sqrt{2}}|1,0\rangle\)
+            </p>
+            <p>
+                \(|\psi\rangle=\frac{1}{\sqrt{2}}|1,1\rangle+\frac{1}{\sqrt{2}}|0,0\rangle\)
+            </p>
+
         </div>
 
         <div id="slide-3" class="slide">
-            <script type="text/javascript" async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-          </script>
+
+
+
           
         <p>
             \(
@@ -97,5 +202,9 @@
     
 
     <script src="script.js"></script>
+
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 </body>
 </html>
