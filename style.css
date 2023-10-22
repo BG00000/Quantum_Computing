@@ -11,16 +11,18 @@
     --BGC-blue: #3E92CC;
     --BGC-black: #071013;
 
-    --Text-1: #fbfbfb;
+    --Text-1: #d8d8d8;
 
     --Border-1: #393939;
 }
 
 .sub-sec {
-    border: 1.5px solid var(--BGC-white);
+    border: 1.5px solid var(--Border-1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px black;
+    background-color: rgba(0, 0, 0, 0.387);
+
 }
 
 body {
@@ -40,12 +42,14 @@ body {
     color: var(--Text-1);
     height: 100vh;
     padding: 50px;
-    gap: 20px;
+    gap: 50px;
 }
 
 #slide-1,
 #slide-2,
-#slide-3 {
+#slide-3,
+#slide-4,
+#slide-5 {
     display: flex;
     flex-direction: column;
     border: 1.5px solid var(--Border-1);
@@ -65,11 +69,17 @@ body {
     gap: 50px;
 }
 
+#slide-1 img {
+    border: 1.5px solid white;
+    border-radius: 10px;
+}
+
 .emphasise-1 {
     color: var(--BGC-orange);
 }
 
-#slide-2 {
+#slide-2,
+#slide-4 {
     gap: 20px;
 }
 
